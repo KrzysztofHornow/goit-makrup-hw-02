@@ -11,11 +11,11 @@
   --productborder: #eeeeee;
   --footerlinks: #ffffff99;
 }
- 
+
 /* Global styles */
 
 body {
-  font-family: "Roboto", "Releway", "Sans-serif";
+  font-family: "Roboto", "Releway";
   background-color: var(--lightgray);
   color: var(--grey);
   font-size: 14px;
@@ -23,10 +23,120 @@ body {
   margin: 0;
   padding: 0;
 }
-
 .logo {
-    background-color: var(--white);
-    width: 1600px;
-    margin: 0px;
+  background-color: var(--white);
+  width: 1600px;
+  height: 80;
+  margin: 0px auto;
+}
+.container {
+  width: 1200px;
+  margin: 0 auto;
 }
 
+.header {
+  align-items: center;
+  gap: 93px;
+  flex-direction: row;
+  padding: 25px 0 24px 0;
+  display: flex;
+  list-style-type: none;
+}
+
+.logo-style {
+  text-decoration: none;
+  width: 145px;
+  height: 31px;
+  top: 24px;
+  left: 215px;
+}
+
+.nav-style-top {
+  background-color: #fff;
+  color: red;
+  width: 53px;
+  height: 16px;
+  left: 453px;
+  top: 32px;
+  position: absolute;
+  display: flex;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.link-style {
+  display: flex;
+  list-style-type: none;
+  text-decoration: none;
+  gap: 46px;
+  width: 58px;
+  height: 16px;
+  left: 552px;
+  top: 32px;
+  margin-right: 46px;
+}
+.text-blue {
+  color: var(--blue);
+}
+.text-black {
+  color: var(--black);
+}
+.link-style:hover {
+  color: var(--blue);
+}
+
+.buttons-nav {
+  background-color: var(--notwhite);
+  color: var(--black);
+  width: 100%;
+  display: flex;
+  gap: 30px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0;
+  list-style-type: none;
+}
+.buttons-nav .button:hover {
+  color: var(--white);
+  background-color: var(--blue);
+  display: flex;
+  justify-content: left;
+  list-style-type: none;
+  position: absolute;
+  cursor: pointer;
+}
+
+.contacts {
+  color: var(--grey);
+  list-style-type: none;
+  text-decoration: none;
+  font-style: normal;
+  position: absolute;
+}
+.contacts > .email {
+  width: 135px;
+  height: 16px;
+  left: 550px;
+  top: 32px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 15px;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+}
+.contacts > .telephone {
+  width: 135px;
+  height: 16px;
+  left: 550px;
+  top: 32px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 15px;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+}
