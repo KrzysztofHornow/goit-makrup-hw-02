@@ -1,0 +1,32 @@
+:root {
+  --white: #fff;
+  --black: #000;
+  --blue: #2196f3;
+  --grey: #757575;
+  --darkgrey: #2f303a;
+  --lightgrey: #e5e5e5;
+  --lightcream: #ececec;
+  --notwhite: #f5f4fa;
+  --notblack: #212121;
+  --productborder: #eeeeee;
+  --footerlinks: #ffffff99;
+}
+ 
+/* Global styles */
+
+body {
+  font-family: "Roboto", "Releway", "Sans-serif";
+  background-color: var(--lightgray);
+  color: var(--grey);
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  margin: 0;
+  padding: 0;
+}
+
+.logo {
+    background-color: var(--white);
+    width: 1600px;
+    margin: 0px;
+}
+
