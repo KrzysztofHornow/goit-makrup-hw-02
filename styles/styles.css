@@ -96,7 +96,7 @@ body {
   padding: 0;
 }
 
-/* BUTTONS  */
+/* BUTTONS  PORTFOLIO*/
 .buttons-nav {
   display: flex;
   justify-content: center;
@@ -107,6 +107,7 @@ body {
 
 .button {
   background-color: var(--notwhite);
+  color: var(--notblack);
   border-width: 0;
   height: 38px;
   font-size: 16px;
@@ -125,7 +126,7 @@ body {
   cursor: pointer;
 }
 
-/* PRODUCTS */
+/* PRODUCTS PORTFOLIO**/
 
 .product-box {
   font-family: "Roboto";
@@ -158,6 +159,8 @@ body {
   font-size: 16px;
   margin: 0 0 0 24px;
 }
+
+/* ORDER THE SERVICE */
 
 /* FOOTER */
 .footer {

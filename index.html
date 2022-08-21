@@ -1,29 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
+ <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./styles/styles.css" />
+    <link href="./styles/styles.css" rel="stylesheet" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
     <title>WebStudio</title>
   </head>
   <body>
-    <header>
-      <a href="index.html"><h3>WebStudio</h3></a>
-      <nav>
-        <ul>
-          <li><a href="studio.html">Agencja</a></li>
-          <li><a href="portfolio.html">Portfolio</a></li>
-          <li><a href="contacts.html">Kontakt</a></li>
-        </ul>
-      </nav>
-      <a href="emailto:info@devstudio.com">info@devstudio.com</a>
-      <a href="tel:+48111111111">+48 111 111 111</a>
-    </header>
-
+ <div class="logo">
+      <header class="header container">
+        <a href="index.html" class="no-underline logo-style">
+          <span class="text-blue">Web</span>Studio</a>
+        <nav>
+          <ul class="nav-style nav-list">
+            <li>
+              <a href="index.htlm" class="text-blue link-style no-underline">Agencja</a>
+            </li>
+            <li>
+              <a href="portfolio.html" class="text-blue link-style no-underline"
+                >Portfolio</a
+              >
+            </li>
+            <li>
+              <a href="kontakt.html" class="text-blue link-style no-underline">Kontakt</a>
+            </li>
+          </ul>
+        </nav>
+        <nav>
+          <ul class="contacts nav-list">
+            <li>
+              <a href="emailto:info@devstudio.com" class="contact-link no-underline text-blue"
+                >info@devstudio.com</a
+              > </li>
+              <li>
+              <a href="tel:+48111111111" class="contact-link no-underline text-blue"
+                >+48 111 111 111</a>
+            </li>
+          </ul>
+        </nav>
+       </div> 
+      </header>
     <main>
+      <div class="header-line-border"></div>
       <section>
-        <h1>EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
+        <h1 class="">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
         <button type="button">Zamów usługę</button>
       </section>
       <section>
@@ -142,11 +169,29 @@
         </ul>
       </section>
     </main>
-    <footer>
-      <a href="index.html"><h3>WebStudio</h3></a>
-      <address>m. Warszawa, Aleje Jerozolimskie 21</address>
-      <a href="emailto:info@devstudio.com">info@devstudio.com</a><br />
-      <a href="tel:+48111111111">+48 111 111 111</a>
-    </footer>
+    <footer class="footer">
+        <div class="container footer-container">
+          <a href="index.html" class="logo-style no-underline white-logo"
+            ><span class="text-blue">Web</span>Studio</a
+          >
+          <address class="adress-text">
+            m. Warszawa, Aleje Jerozolimskie 21
+          </address>
+          <ul class="link-footer no-margin">
+            <li>
+              <a
+                href="emailto:info@devstudio.com"
+                class="info-email-footer"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li>
+              <a href="tel:+48111111111" class="no-underline info-email-footer""
+                >+48 111 111 111</a
+              >
+            </li>
+          </ul>
+        </div>
+      </footer>
   </body>
 </html>
