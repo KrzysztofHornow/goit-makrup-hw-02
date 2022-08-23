@@ -199,6 +199,7 @@ body {
   width: 200px;
   height: 50px;
   border: none;
+  cursor: pointer;
 }
 
 /* LOREM INDEX.HTML */
@@ -208,7 +209,8 @@ body {
   flex-direction: row;
   align-items: center;
   display: flex;
-  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
   gap: 30px;
 }
 
@@ -220,7 +222,6 @@ body {
   font-size: 14px;
   line-height: 16px;
   width: 270px;
-  height: 16px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
@@ -233,7 +234,6 @@ body {
   line-height: 24px;
   letter-spacing: 0.03em;
   width: 270px;
-  height: 75px;
 }
 
 /* FOOTER */
